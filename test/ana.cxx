@@ -7,18 +7,16 @@ using std::endl;
 void ana(){
     gSystem->Load("../lib/libtopology.so");
     // the tree name is "sig"
-    Topology topo("sig");
+    Topology topo("mctruth");
     // a TCut could be set
     topo.SetCut("");
     topo.SetBranchName(
-            "sig_indexmc", 
-            "sig_pdgid", 
-            "sig_motheridx");
+            "indexmc", 
+            "pdgid", 
+            "motheridx");
     // if more than one files should be analysised, 
     // please use "AddFiles" add them one by one
-    topo.AddFiles(
-            "/scratchfs/bes/maxx/4180/DsSTag/AllMCSample/mode/open*root"
-            );
-    //topo.AddFiles("/scratchfs/bes/maxx/3770/D_KsKsK/stag/inclusiveMC/mode/sig.DpDm_dst_round04.root");
+    topo.AddFiles("input.root");
+    //topo.AddFiles("/scratc/sig.DpDm_dst_round04.root");
     topo.run();
 }

@@ -118,7 +118,7 @@ DLIST:=$(patsubst %.cc,%.d,$(addprefix $(DEPDIR)/,$(notdir $(CCLIST))))
 $(DEPDIR)/%.d: $(SRCDIR)/%.cc
 	@echo "Making $@"
 	@mkdir -p $(DEPDIR)
-	@python setup.py
+	@python .setup.py
 	@set -e; $(CXX) $(MFLAGS) $(CXXFLAGS) $< \
 	          | sed 's#\($(notdir $*)\)\.o[ :]*#$(OBJDIR)/\1.o $@ : #g' > $@; \
 	        [ -s $@ ] || rm -f $@
