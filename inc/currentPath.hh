@@ -1,4 +1,4 @@
 #ifndef TOPOLOGYPATH
-#define TOPOLOGYPATH "/ihepbatch/bes/maxx/public/DecayTopo"
+#define TOPOLOGYPATH "/besfs/users/maxx/Tool/github/DecayTopo"
 #endif
 
