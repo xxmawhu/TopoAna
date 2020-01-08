@@ -2,7 +2,7 @@
 ## Install
 * copy it
 ```bash
-git clone ...
+git clone https://github.com/xxmawhu/DecayTopo.git
 ```
 * compile it with `make`
 ## usage
