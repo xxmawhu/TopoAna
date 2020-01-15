@@ -61,7 +61,7 @@ Fortunely, I solve this problem. That's all.
 
 * copy it
 ```bash
-git clone https://github.com/xxmawhu/DecayTopo.git
+git clone https://github.com/xxmawhu/TopoAna.git
 ```
 * compile it with `make`
 ## usage
