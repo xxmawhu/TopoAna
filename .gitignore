@@ -30,3 +30,8 @@
 *.exe
 *.out
 *.app
+util/*.pdf
+util/*.tex
+util/*.aux
+*.dvi
+*.log
