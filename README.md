@@ -52,7 +52,7 @@ last one.
 [ -1,  0,   0,   0,   3,    3,  1,    1,   2,    2,   4,    4]
 ```
 The most hard task is
-### How to judge two `tree` are same?
+### How to judge two `trees` are same?
 
 Fortunely, I solve this problem. That's all.
 
